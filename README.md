@@ -1,16 +1,16 @@
-# **Ume: AI Agent Powered by Arc Rig**
+# **Yui: AI Agent Powered by Arc Rig**
 
-![umepos](https://github.com/user-attachments/assets/396d6ebb-7145-4a90-bb4f-97dc7f195be4)
+![1500x500_5](https://github.com/user-attachments/assets/526611f8-9814-44b0-af40-703c22b726c6)
 
 ---
 
-**Ume** is a modular, intelligent AI agent built using the **Arc Rig** framework. Designed for AI research, task automation, and real-time insights, Ume adapts to various use cases by leveraging powerful reasoning, contextual memory, and task execution capabilities.
+**Yui** is a modular, intelligent AI agent built using the **Arc Rig** framework. Designed for AI research, task automation, and real-time insights, Yui adapts to various use cases by leveraging powerful reasoning, contextual memory, and task execution capabilities.
 
 ---
 
 ## **Overview**
 
-- **Name:** Ume
+- **Name:** Yui
 - **Framework:** Arc Rig
 - **Purpose:** A flexible AI agent for automating tasks, interfacing with systems, and providing insightful responses.
 - **Core Principles:** Modularity, Adaptability, Interactivity
@@ -19,7 +19,7 @@
 
 ## **Architecture**
 
-Ume's architecture leverages Arc Rig's modular design, allowing for easy extension and customization. The primary modules include:
+Yui's architecture leverages Arc Rig's modular design, allowing for easy extension and customization. The primary modules include:
 
 ### **Core Modules**
 
@@ -46,13 +46,13 @@ Ume's architecture leverages Arc Rig's modular design, allowing for easy extensi
 - Easily integrate new modules or replace existing ones.
 
 ### **2. Adaptive Reasoning**
-- Ume leverages adaptive reasoning for complex task execution and decision-making.
+- Yui leverages adaptive reasoning for complex task execution and decision-making.
 
 ### **3. Contextual Memory**
 - Persistent short-term and long-term memory to keep track of conversations and tasks.
 
 ### **4. Multi-Agent Collaboration**
-- Ume can delegate tasks and collaborate with other agents or services.
+- Yui can delegate tasks and collaborate with other agents or services.
 
 ### **5. Real-Time Analytics**
 - Provides insights based on real-time data and analysis.
@@ -64,8 +64,8 @@ Ume's architecture leverages Arc Rig's modular design, allowing for easy extensi
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/ume/ume.git
-   cd ume
+   git clone https://github.com/Yui/Yui.git
+   cd Yui
    ```
 
 2. **Install Dependencies**
@@ -74,10 +74,10 @@ Ume's architecture leverages Arc Rig's modular design, allowing for easy extensi
    pip install -r requirements.txt
    ```
 
-3. **Run Ume**
+3. **Run Yui**
 
    ```bash
-   python agents/ume.py
+   python agents/Yui.py
    ```
 
 ---
@@ -85,14 +85,14 @@ Ume's architecture leverages Arc Rig's modular design, allowing for easy extensi
 ## **Usage**
 
 1. **Start the Agent**  
-   Run the following command to initiate Ume:
+   Run the following command to initiate Yui:
 
    ```bash
-   python agents/ume.py
+   python agents/Yui.py
    ```
 
-2. **Interact with Ume**  
-   Give tasks or ask questions, and Ume will handle them dynamically.
+2. **Interact with Yui**  
+   Give tasks or ask questions, and Yui will handle them dynamically.
 
 3. **Exit Command**  
    To stop the agent, type:
@@ -105,14 +105,14 @@ Ume's architecture leverages Arc Rig's modular design, allowing for easy extensi
 
 ## **Customization**
 
-### **Config File:** `ume_agent.yaml`
+### **Config File:** `Yui_agent.yaml`
 
-Modify Ume's behavior and modules through the configuration file located in `agents/ume_agent.yaml`.
+Modify Yui's behavior and modules through the configuration file located in `agents/Yui_agent.yaml`.
 
 Example Configuration:
 
 ```yaml
-name: Ume
+name: Yui
 description: A versatile AI agent for research and task automation.
 modules:
   - name: memory
