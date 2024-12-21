@@ -67,11 +67,7 @@ Tina’s development is an open-source initiative. Developers and community memb
 
 Tina is released under the MIT License. See the LICENSE file for details.
 
-## Join the Community
 
-- [GitHub Repository](#)
-- [Discord](#)
-- [Twitter](#)
 
 ## Acknowledgments
 
