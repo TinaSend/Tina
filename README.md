@@ -1,141 +1,83 @@
-# **Yui: AI Agent Powered by Arc Rig**
+# Tina: The First AI Agent on the SendaiFun Solana Agent Protocol
 
-![1500x500_5](https://github.com/user-attachments/assets/526611f8-9814-44b0-af40-703c22b726c6)
 
----
 
-**Yui** is a modular, intelligent AI agent built using the **Arc Rig** framework. Designed for AI research, task automation, and real-time insights, Yui adapts to various use cases by leveraging powerful reasoning, contextual memory, and task execution capabilities.
+![banner_-_2024-12-21T120615 427](https://github.com/user-attachments/assets/f16de9c6-55a5-4e79-8afc-cf4d6de372b9)
 
----
 
-## **Overview**
 
-- **Name:** Yui
-- **Framework:** Arc Rig
-- **Purpose:** A flexible AI agent for automating tasks, interfacing with systems, and providing insightful responses.
-- **Core Principles:** Modularity, Adaptability, Interactivity
+## Overview
+Tina is a groundbreaking AI agent, developed as the inaugural implementation of the SendaiFun Solana Agent Protocol. Designed to integrate seamlessly with Solana’s blockchain infrastructure, Tina leverages the protocol’s decentralized capabilities to provide innovative and scalable AI solutions. Tina was launched on [Pump.fun](https://pump.fun), a Solana-native platform fostering creative and community-driven blockchain projects.
 
----
+## Key Features
 
-## **Architecture**
+- **Blockchain-Integrated AI:** Tina operates entirely on Solana’s blockchain, ensuring transparency, security, and scalability.
+- **SendaiFun Protocol Compliance:** As the first implementation of the protocol, Tina sets the standard for AI agents operating within this ecosystem.
+- **Decentralized Decision-Making:** Tina utilizes Solana’s fast and efficient consensus mechanism to execute decisions and interact with smart contracts.
+- **Community Engagement:** Tina’s functionality and roadmap are shaped by user input and governance, ensuring alignment with the community’s needs.
 
-Yui's architecture leverages Arc Rig's modular design, allowing for easy extension and customization. The primary modules include:
+## SendaiFun Solana Agent Protocol
 
-### **Core Modules**
+The SendaiFun Solana Agent Protocol is a framework for creating decentralized AI agents on Solana. It enables:
+- **Interoperability:** AI agents can interact with Solana smart contracts and DeFi protocols.
+- **Scalability:** Designed to handle high transaction throughput and low latency.
+- **Extensibility:** Developers can build modular components and deploy custom AI solutions.
 
-1. **Memory Module**  
-   - Long-term and short-term memory for contextual interactions.
+For detailed information, visit the [official documentation](https://docs.solanaagentkit.xyz/v0/introduction).
 
-2. **Reasoning Module**  
-   - Adaptive reasoning engine for dynamic task handling.
+## Tina’s Launch on Pump.fun
 
-3. **Task Manager Module**  
-   - Automates task execution and delegation.
+Tina debuted on Pump.fun to showcase the potential of AI agents powered by the SendaiFun Protocol. Pump.fun’s vibrant ecosystem and community provided the ideal platform for Tina’s introduction to the Solana network.
 
-4. **Interaction Module**  
-   - Chat interface for human-AI interaction.
+### Launch Highlights
 
-5. **Analytics Module**  
-   - Real-time data analysis and insights generation.
+- **Interactive AI Demonstrations:** Users engaged with Tina in real-time to explore her capabilities.
+- **Community Contributions:** Tina’s development is open-source, encouraging community members to contribute to her growth.
+- **Token Integration:** Tina supports Solana-native tokens for interactions and services, enhancing utility and adoption.
 
----
+## Use Cases
 
-## **Features**
+1. **Decentralized Finance (DeFi):** Tina can analyze market trends, execute trades, and manage assets on behalf of users.
+2. **Community Governance:** Tina facilitates decentralized decision-making by processing proposals and managing on-chain voting systems.
+3. **Smart Contract Automation:** Tina can execute complex logic within smart contracts, enabling automated workflows.
+4. **NFT Ecosystem:** Tina can manage NFT drops, analyze trends, and provide personalized recommendations.
 
-### **1. Modular Design**
-- Easily integrate new modules or replace existing ones.
+## Roadmap
 
-### **2. Adaptive Reasoning**
-- Yui leverages adaptive reasoning for complex task execution and decision-making.
+### Phase 1: Launch and Integration
+- Deployment on Pump.fun.
+- Integration with key Solana protocols and DeFi platforms.
 
-### **3. Contextual Memory**
-- Persistent short-term and long-term memory to keep track of conversations and tasks.
+### Phase 2: Feature Expansion
+- Enhanced AI capabilities for natural language processing and decision-making.
+- Support for cross-chain interoperability.
 
-### **4. Multi-Agent Collaboration**
-- Yui can delegate tasks and collaborate with other agents or services.
+### Phase 3: Ecosystem Growth
+- Collaboration with developers to build Tina-powered applications.
+- Introduction of Tina’s governance token for community-driven development.
 
-### **5. Real-Time Analytics**
-- Provides insights based on real-time data and analysis.
+## Contributing
 
----
+Tina’s development is an open-source initiative. Developers and community members are encouraged to contribute by:
+- Forking the repository.
+- Submitting pull requests.
+- Reporting bugs or suggesting features via the issue tracker.
 
-## **Installation**
+## License
 
-1. **Clone the Repository**
+Tina is released under the MIT License. See the LICENSE file for details.
 
-   ```bash
-   git clone https://github.com/Yui/Yui.git
-   cd Yui
-   ```
+## Join the Community
 
-2. **Install Dependencies**
+- [GitHub Repository](#)
+- [Discord](#)
+- [Twitter](#)
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+## Acknowledgments
 
-3. **Run Yui**
-
-   ```bash
-   python agents/Yui.py
-   ```
+Tina’s creation was made possible through the collaborative efforts of the Solana community, the Pump.fun team, and the developers of the SendaiFun Solana Agent Protocol.
 
 ---
 
-## **Usage**
+Together, we’re shaping the future of decentralized AI on the blockchain. Join us in building Tina and explore the endless possibilities of AI agents on Solana!
 
-1. **Start the Agent**  
-   Run the following command to initiate Yui:
-
-   ```bash
-   python agents/Yui.py
-   ```
-
-2. **Interact with Yui**  
-   Give tasks or ask questions, and Yui will handle them dynamically.
-
-3. **Exit Command**  
-   To stop the agent, type:
-
-   ```
-   exit
-   ```
-
----
-
-## **Customization**
-
-### **Config File:** `Yui_agent.yaml`
-
-Modify Yui's behavior and modules through the configuration file located in `agents/Yui_agent.yaml`.
-
-Example Configuration:
-
-```yaml
-name: Yui
-description: A versatile AI agent for research and task automation.
-modules:
-  - name: memory
-    type: long_term
-  - name: reasoning
-    type: adaptive_reasoning
-  - name: task_manager
-    type: automation
-  - name: interaction
-    type: chat_interface
-  - name: analytics
-    type: real_time
-personality:
-  traits:
-    - friendly
-    - knowledgeable
-    - proactive
-```
-
----
-
-## **Future Plans**
-
-- **Web Interface**: Integrate a front-end interface using Flask or Streamlit.
-- **API Integrations**: Connect with external services (e.g., Discord, Slack, Twitter).
-- **Enhanced Memory**: Implement vector-based memory for improved contextual recall.
